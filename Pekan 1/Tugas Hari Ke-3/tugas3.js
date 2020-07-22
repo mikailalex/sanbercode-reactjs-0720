@@ -16,7 +16,7 @@ var kataKeempat = "5";
 
 var jumlah = Number(kataPertama) + Number(kataKedua) + Number(kataKetiga) + Number(kataKeempat);
 
-console.log(jumlah)
+console.log(jumlah);
 
 //soal 3
 var kalimat = 'wah javascript itu keren sekali'; 
@@ -70,4 +70,4 @@ switch(bulan) {
 
 var ttl = `${String(tanggal)} ${bulan} ${String(tahun)}`;
 
-console.log(ttl)
+console.log(ttl);
