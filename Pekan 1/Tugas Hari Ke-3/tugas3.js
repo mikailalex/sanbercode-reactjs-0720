@@ -4,7 +4,7 @@ var kataKedua = "senang";
 var kataKetiga = "belajar";
 var kataKeempat = "javascript";
 
-var kalimat = `${kataPertama} ${kataKedua} ${kataKetiga} ${kataKeempat}`;
+var kalimat = `${kataPertama} ${kataKedua[0].toUpperCase()}${kataKedua.substr(1)} ${kataKetiga} ${kataKeempat.toUpperCase()}`;
 
 console.log(kalimat);
 
