@@ -36,7 +36,7 @@ console.log('Kata Kelima: ' + kataKelima);
 // soal 4
 var nilai = 79;
 
-if (nilai >+ 80) {
+if (nilai >= 80) {
   console.log("Indeks: A");
 } else if (nilai >= 70 && nilai < 80) {
   console.log("Indeks: B");
