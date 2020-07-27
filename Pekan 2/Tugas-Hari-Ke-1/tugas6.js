@@ -34,10 +34,14 @@ console.log(dataFilm) //?
 // Soal 4 release 0
 class Animal {
 constructor(name) {
-    this.name = name;
-    this.legs = 4;
-    this.cold_blooded = false;
-    }
+   this.name = name;
+  }
+  get legs() {
+    return 4;
+  }
+  get cold_blooded() {
+    return false;
+  }
 }
 
 var sheep = new Animal("shaun");
